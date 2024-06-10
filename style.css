@@ -17,24 +17,84 @@ h3 {
 }
 
 /* Header */
-header {
+header { 
+  display: flex; 
+  justify-content: space-between;
+  align-items: center; 
+  padding: 10px;
+}  
+
+.about { 
+  display: flex;
+  text-align: center;
+}  
+
+.about-content { 
+  display: flex; 
+  align-items: left;
+  justify-content: left;
+  margin: 3px 3px 3px 3px; 
+  padding: 3px 3px 3px 3px;
+} 
+.portfolio { 
+  display:flex; 
+  font-size: 14px;
+  margin: auto; 
+  text-align: center;
+  
+}
+ 
+
+.background { 
+  margin-top: 20px;
   text-align: center;
 }
 
+.about-text { 
+  text-align: left; 
+
+} 
+
+header h1 { 
+  margin: 0;
+}
+
+header nav ul { 
+  list-style: none; 
+  display: flex; 
+  margin: 10px 10px 10px 10px; 
+  padding: 10;
+} 
+
+header nav ul li { 
+  margin-left: 20px;
+} 
+
+header nav ul li a { 
+  text-decoration: none; 
+  color: black;
+}
 /* Containers */
 div {
   background-color: #eae2b7;
   margin: auto;
-  width: 600px;
+  width: 600px; 
+} 
+.container { 
+  display: flex; 
+  justify-content: center;
+  align-items: center; 
 }
+
 
 article {
   padding: 50px 0;
+  height: 100px:
 }
 
 article div {
   text-align: center;
-  width: 100%;
+  width: 50%;
 }
 
 /* Paragraphs */
@@ -60,11 +120,13 @@ img {
   width: 100%;
   max-width: 200px;
   height: auto;
-}
+} 
+
 
 .image-circle {
   border: 2px solid #003049;
-  border-radius: 50%;
+  border-radius: 50%; 
+  margin-bottom: 20px;
 }
 
 /* Footer */
